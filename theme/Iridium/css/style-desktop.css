@@ -1,0 +1,424 @@
+/*
+
+	Iridium by TEMPLATED
+
+    templated.co @templatedco
+
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+*/
+
+
+
+/*********************************************************************************/
+
+/* Basic                                                                         */
+
+/*********************************************************************************/
+
+body,input,textarea,select
+
+{
+
+font-size: 11pt;
+
+}
+
+
+
+/*********************************************************************************/
+
+/* Header                                                                        */
+
+/*********************************************************************************/
+
+
+
+#header
+
+{
+
+position: fixed;
+
+z-index: 10002;
+
+padding: 2em 0em 0.6em 0em;
+
+text-align: center;
+
+width: 100%;
+
+}
+
+	
+
+.homepage #header
+
+{
+
+position: relative;
+
+padding: 10em 0em;
+
+min-height: 100%;
+
+}
+
+.homepage #main
+
+{
+
+display:none;
+
+}
+
+#header .container
+
+{
+
+}
+
+#header .container .navbar-fixed-top 
+
+{
+
+top: 10px;
+
+border-width: 0px 0px 1px;
+
+min-height: 50px;
+
+}
+
+/*********************************************************************************/
+
+/* Logo                                                                          */
+
+/*********************************************************************************/
+
+.homepage #logo
+
+{
+
+margin-bottom: 2em;
+
+}
+
+#logo
+
+{
+
+margin-bottom:0;
+
+}
+
+#logo h1
+
+{
+
+color: #FFF;
+
+}
+
+	
+
+#logo h1 a
+
+{
+
+display: block;
+
+letter-spacing: 1px;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+font-size: 3em;
+
+font-weight: 900;
+
+color: #FFF;
+
+}
+
+#logo span
+
+{
+
+display: block;
+
+padding-top: 1em;
+
+letter-spacing: 1px;
+
+text-transform: uppercase;
+
+font-size: 1.2em;
+
+color: rgba(255,255,255,.5);
+
+}			
+
+			
+
+
+
+/*********************************************************************************/
+
+/* Nav                                                                           */
+
+/*********************************************************************************/
+
+
+
+#nav
+
+{
+
+}
+
+#nav > ul > li
+
+{
+
+display: inline-block;
+
+}
+
+		
+
+			#nav > ul > li:last-child
+
+			{
+
+				padding-right: 0;
+
+			}
+
+
+
+			#nav > ul > li > a,
+
+			#nav > ul > li > span
+
+			{
+
+				display: block;
+
+				padding: 0.8em 0.6em;
+
+				letter-spacing: 1px;
+
+				text-decoration: none;
+
+				text-transform: uppercase;
+
+				font-weight: 500;
+
+				font-size: 1.3em;
+
+				outline: 0;
+
+				color: rgba(255,255,255,.7);
+
+			}
+
+
+
+			#nav li.active a, #nav > ul > li > a:hover
+
+			{
+
+				background: none;
+
+				border-radius: 40px;
+
+				border: 2px solid;
+
+				border-color: rgba(255,255,255,.8);
+
+				color: #FFF;
+
+			}
+
+
+
+			#nav > ul > li > ul
+
+			{
+
+				display: none;
+
+			}
+
+
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+
+    position: fixed;
+
+    right: 0px;
+
+    left: 0px;
+
+    z-index: 1030;
+
+    transform: translate3d(0px, 0px, 0px);
+
+}
+
+/*********************************************************************************/
+
+/* Main                                                                          */
+
+/*********************************************************************************/
+
+
+
+	.homepage #main
+
+	{
+
+		padding: 3em 0em 4em 0em;
+
+	}
+
+
+
+	#main
+
+	{
+
+		padding: 6em 0em 4em 0em;
+
+	}
+
+	.homepage #content
+
+	{
+
+		margin-top: 0;
+
+	}
+
+	#content
+
+	{
+
+		margin-top: 7em;
+
+	}
+
+	
+
+	#content header
+
+	{
+
+		margin: 2em 0 1.8em 0;
+
+	}
+
+	
+
+	#content header h2
+
+	{
+
+		font-size: 2.5em;
+
+	}
+
+	
+
+	#content header .byline
+
+	{
+
+		font-size: 1.40em;
+
+	}
+
+	
+
+	#sidebar h2
+
+	{
+
+		display: block;
+
+		padding-bottom: 2em;
+
+		font-size: 1.4em;
+
+	}
+
+/*********************************************************************************/
+
+/* Featured                                                                      */
+
+/*********************************************************************************/
+
+	
+
+	#featured
+
+	{
+
+		padding: 0.2em 0em;
+
+	}
+
+#featured img
+
+{
+
+height: 300px;	
+
+}
+
+#featured h1, h2
+
+{
+
+font-size: 1.1em;
+
+text-transform: none;
+
+}
+
+/*********************************************************************************/
+
+/* Footer                                                                        */
+
+/*********************************************************************************/
+
+	#footer
+
+{
+
+position: relative;
+
+padding: 1.5em 0em 1em 0em;
+text-align: center;
+
+}
+
+	
+
+#footer h2
+
+{
+
+padding-bottom: 2em;
+
+font-size: 1.4em;
+
+}
+
+#skel-panels-defaultWrapper{
+
+display:none;	
+
+}
